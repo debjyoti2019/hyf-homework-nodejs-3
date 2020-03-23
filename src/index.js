@@ -11,7 +11,7 @@ const data={
 app.get('/', (req, res) => res.send('Hello World!'))
 
 app.get('/users', function (req, res) {
-  res.json(data);
+  res.json({});
 })
 
 app.listen(port, () => console.log(`listening on port ${port}!`))
